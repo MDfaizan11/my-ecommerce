@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.single_page_wrapper {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.discription_container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 700;
+}
+.discription_container p:nth-child(1) {
+  font-size: 25px;
+}
+.image_div {
+  height: 350px;
+  width: 350px;
+}
+.image_div img {
+  height: 100%;
+  width: 100%;
+}

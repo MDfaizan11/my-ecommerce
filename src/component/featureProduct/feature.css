@@ -1,0 +1,18 @@
+.Single_Feature_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 350px;
+  width: 100%;
+  align-items: center;
+  background-color: ghostwhite;
+}
+.singlePagedesign {
+  height: 250px;
+  width: 250px;
+}
+.singlePagedesign img {
+  height: 100%;
+  width: 100%;
+}
