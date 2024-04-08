@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
@@ -57,8 +56,7 @@ function Header() {
               Contact
             </NavLink>
             <div className="nav_button">
-              {" "}
-              <button> Log In</button>{" "}
+              <button> Log In</button>
             </div>
           </ul>
           <div className="nav_icon" onClick={handleclick}>
