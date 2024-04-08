@@ -44,7 +44,7 @@ function Cart() {
       if (item.id === id && item.quantity > 0) {
         return { ...item, quantity: item.quantity - 1 };
       }
-      return item;
+      return item;   
     });
     setCartData(updatedCartData);
   }
@@ -70,7 +70,6 @@ function Cart() {
                 <button onClick={() => handleDecrement(item.id)}>-</button>
                 <p>Item Total: ${item.price * (item.quantity || 0)}</p>
                 <button onClick={() => handledelete(idx)}>
-                  {" "}
                   delete product
                 </button>
               </div>
