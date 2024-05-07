@@ -15,7 +15,7 @@ function Header() {
 
   useEffect(() => {
     const storedCartData = JSON.parse(localStorage.getItem("cartItems")) || [];
-    setCartlength(storedCartData);
+    setCartlength(storedCartData.length);
   }, []);
   return (
     <>
@@ -70,7 +70,7 @@ function Header() {
             <NavLink to={"/cart"}>
               <FaShoppingCart />
             </NavLink>
-            <span>{cartLength.length}</span>
+            <span>{cartLength}</span>
           </div>
         </nav>
       </header>

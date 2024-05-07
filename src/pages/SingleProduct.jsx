@@ -21,16 +21,7 @@ function SingleProduct() {
     setFinaldata(mysingleData);
   }, [id, singleData]);
 
-  // function handlesubmit(id) {
-  //   id = parseInt(id);
-  //   console.log(id);
-  //   const product = finaldata.find((item, index) => index === id);
-  //   const existingCartItems =
-  //     JSON.parse(localStorage.getItem("cartItems")) || [];
-  //   const updatedCartItems = [...existingCartItems, product];
-  //   localStorage.setItem("cartItems", JSON.stringify(updatedCartItems));
-  //   alert("Product added to cart!");
-  // }
+
 
   function handlesubmit(idx) {
     idx = parseInt(idx);
