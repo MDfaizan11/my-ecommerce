@@ -5,6 +5,7 @@
   justify-content: space-evenly;
   height: auto;
   align-items: center;
+  margin-top: 43px;
 }
 .home_contain {
   width: 400px;
@@ -19,6 +20,8 @@
 .home_image img {
   position: absolute;
   width: 100%;
+  height: 75%;
+  box-shadow: 7px 4px 7px gray;
 }
 .home_button {
   height: 40px;
@@ -27,6 +30,13 @@
   margin-top: 15px;
   font-size: 15px;
   font-weight: 600;
+}
+.home_button:hover {
+  background-color: orange;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 .services_wrapper {
   display: flex;

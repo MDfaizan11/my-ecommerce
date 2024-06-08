@@ -1,5 +1,5 @@
 import React from "react";
-import fig1 from "../assets/images/pexels-photo-3985062.jpeg";
+import fig1 from "../assets/images/MKrG7fg28XHPfUKJgYVWT5.jpg";
 import { FiCodesandbox } from "react-icons/fi";
 import "../style/home.css";
 import { TbTruckDelivery } from "react-icons/tb";

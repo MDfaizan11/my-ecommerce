@@ -20,7 +20,13 @@ function FeatureProduct() {
 
   return (
     <>
-      <p style={{ textAlign: "center" }}> FeatureProduct</p>
+      <div className="heading">
+        <p style={{ textAlign: "center" }}>
+          {" "}
+          <span style={{ color: "orange" }}> F</span>eature{" "}
+          <span style={{ color: "orange" }}>P</span>roduct
+        </p>
+      </div>
       <div className="Single_Feature_wrapper">
         {product.data.map((e) => {
           if (e.featured === true)
