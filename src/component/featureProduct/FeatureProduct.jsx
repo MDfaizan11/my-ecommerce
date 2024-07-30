@@ -3,21 +3,7 @@ import { Appcontext } from "../../context/Productcontex";
 import { useContext } from "react";
 import "./feature.css";
 function FeatureProduct() {
-  // const [feature, setfeatre] = useState([]);
-  // console.log(feature);
   let product = useContext(Appcontext);
-  // console.log(product);
-  // let mainData = product.data;
-  // console.log(mainData);
-
-  // useEffect(() => {
-  //   let filterProduct = mainData.filter((item) => {
-  //     return item.featured === true;
-  //   });
-  //   console.log(filterProduct);
-  //   setfeatre(filterProduct);
-  // }, []);
-
   return (
     <>
       <div className="heading">
@@ -32,12 +18,20 @@ function FeatureProduct() {
           if (e.featured === true)
             return (
               <div className="singlePagedesign" key={e.id}>
-                <NavLink to={`/singleproduct/${e.id}`}>
+                <NavLink className="pp" to={`/singleproduct/${e.id}`}>
                   <div>
-                    <p>{e.name}</p>
-                    <img src={e.image} alt="" />
-                    <p>{e.company}</p>
-                    <p>{e.price}</p>
+                    <div className="name">
+                      <p>{e.name}</p>
+                    </div>
+                    <div className="image">
+                      <img src={e.image} alt="" />
+                    </div>
+                    <div className="company">
+                      <p> manufacture By : {e.company}</p>
+                    </div>
+                    <div className="price">
+                      <p> Price : {e.price}</p>
+                    </div>
                   </div>
                 </NavLink>
               </div>

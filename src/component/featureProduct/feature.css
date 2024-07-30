@@ -21,3 +21,11 @@
   font-weight: 700;
   height: 50px;
 }
+.name {
+  margin-bottom: 10px;
+  font-size: larger;
+}
+.singlePagedesign .pp {
+  text-decoration: none;
+  color: black;
+}
